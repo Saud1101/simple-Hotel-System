@@ -9,7 +9,7 @@ public class Reservation {
     public Reservation(Room room) {
         this.room = room; //providing a room when creating a reservation
     }
-    //seters and getters
+    //setters and getters
     public void setCheckInDate(String date) {
         this.checkInDate = date;
     }
