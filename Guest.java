@@ -35,7 +35,7 @@ public class Guest {
             reservation = null;
         }
     }
-
+    //getters
     public Reservation getReservation() {
         return reservation;
     }
