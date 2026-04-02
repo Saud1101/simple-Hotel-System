@@ -5,6 +5,7 @@ public class Reservation {
     private String checkOutDate;
     private Room room;
 
+	//constructor
     public Reservation(Room room) {
         this.room = room; //providing a room when creating a reservation
     }
