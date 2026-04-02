@@ -9,7 +9,7 @@ public class SuiteRoom extends DoubleRoom {
 		this.numRooms = 3;
 	}
 
-	// Overriding the abstract method to specify the room typee
+	// Overriding the abstract method to specify the room type
 	public String getRoomType() {
 		return "Suite Room";
 	}
