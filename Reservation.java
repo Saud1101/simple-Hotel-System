@@ -11,7 +11,7 @@ public class Reservation {
         this.checkOutDate = "";
         room.setAvailable(false); //room is unavailable by default
     }
-
+    //setters and getters
     public void setCheckInDate(String date) {
         this.checkInDate = date;
     }
