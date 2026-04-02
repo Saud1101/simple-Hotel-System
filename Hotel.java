@@ -2,7 +2,7 @@
 
 public class Hotel {
 
-	private Room[] rooms;
+	private Room[] rooms:
 	private int numRooms;
 	private Guest[] guests;
 	private int numGuests;
