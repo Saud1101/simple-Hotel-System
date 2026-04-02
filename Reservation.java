@@ -6,9 +6,9 @@ public class Reservation {
     private Room room;
 
     public Reservation(Room room) {
-        this.room = room;
+        this.room = room; //providing a room when creating a reservation
     }
-
+    //seters and getters
     public void setCheckInDate(String date) {
         this.checkInDate = date;
     }
