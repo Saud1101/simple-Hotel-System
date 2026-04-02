@@ -5,10 +5,11 @@ public class Guest {
     private String id;
     private Reservation reservation;
 
+	//constructor
     public Guest(String name, String id) {
         this.name = name;
         this.id = id;
-        reservation = null; 
+        reservation = null; //guest starts with no reservation
     }
 
     public boolean addReservation(Reservation r) {
@@ -29,7 +30,7 @@ public class Guest {
         return false;
     }
 
-    public void checkOutReservation() {
+    public void checkout() {
         if (reservation != null) {
             reservation.getRoom().setAvailable(true);
             reservation = null;
@@ -49,7 +50,7 @@ public class Guest {
     }
 
     public String toString() {
-        return "Guest: " + name + "\nID: " + id +
+        return "Guest: " + name + ", ID: " + id +
                (reservation != null ? "\n" + reservation.toString() : "\nNo reservation");
     }
 }
