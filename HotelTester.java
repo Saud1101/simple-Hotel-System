@@ -333,7 +333,7 @@ public class HotelTester {
 		System.out.println("Check-in: " + checkInDate);
 		System.out.println("Check-out: " + checkOutDate);
 
-		g.checkOutReservation();
+		g.checkout();
 
 		if (hotel.removeGuest(id)) {
 			System.out.println("Guest removed successfully. Goodbye!");
