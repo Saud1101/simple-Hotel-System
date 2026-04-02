@@ -1,4 +1,4 @@
-package Phase1;
+
 
 public class Hotel {
 
